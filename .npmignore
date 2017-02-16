@@ -5,3 +5,4 @@ index.html
 webpack.config.js
 webpack.config.dist.js
 .eslint*
+.npmignore
