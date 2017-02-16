@@ -2,7 +2,7 @@
   "name": "react-typewriter-asmpx",
   "version": "1.0.0",
   "description": "React components for automatic typing effects.",
-  "main": "./build/react-typewriter-asmpx.js",
+  "main": "./dist/react-typewriter-asmpx.js",
   "scripts": {
     "prepublish": "npm run build",
     "build": "./node_modules/.bin/webpack --config webpack.config.dist.js -p",
