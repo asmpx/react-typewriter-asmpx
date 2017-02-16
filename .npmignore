@@ -1,5 +1,7 @@
 src
+build
 index.html
 *.tgz
 webpack.config.js
+webpack.config.dist.js
 .eslint*
