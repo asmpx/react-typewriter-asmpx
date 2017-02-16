@@ -1,30 +1,36 @@
 {
-  "name": "react-typewriter",
-  "version": "0.4.1",
+  "name": "react-typewriter-asmpx",
+  "version": "1.0.0",
   "description": "React components for automatic typing effects.",
-  "main": "./build/react-typewriter.js",
+  "main": "./build/react-typewriter-asmpx.js",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "./node_modules/.bin/webpack -p",
+    "build": "./node_modules/.bin/webpack --config webpack.config.dist.js -p",
     "dev-build": "./node_modules/.bin/webpack -d --progress --colors",
     "watch-build": "./node_modules/.bin/webpack -d --watch --progress --colors",
-    "dev-server": "./node_modules/.bin/webpack-dev-server --port 3000",
+    "dev-server": "./node_modules/.bin/webpack-dev-server --port 13000",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx ./src"
   },
   "keywords": [
     "animated",
     "typing",
     "react",
-    "component"
+    "component",
+    "type",
+    "typewriter",
+    "animation",
+    "effect",
+    "reactjs",
+    "react.js"
   ],
   "author": "Ian Dilling <ianbjorndilling@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ianbjorndilling/react-typewriter.git"
+    "url": "https://github.com/asmpx/react-typewriter-asmpx.git"
   },
   "dependencies": {
-    "react": "^0.14.7"
+    "react": "^0.14.7 || ^15.0"
   },
   "devDependencies": {
     "babel-core": "^6.5.2",

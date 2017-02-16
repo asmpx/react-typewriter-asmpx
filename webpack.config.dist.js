@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   output: {
-    path: './build',
+    path: './dist',
     filename: 'react-typewriter-asmpx.js',
     library: 'TypeWriter',
     libraryTarget: 'umd'
